@@ -1,0 +1,5 @@
+CREATE DATABASE (nome); > Para criar um servidor
+
+SHOW DATABASES; > Para mostrar os servidores
+
+DROP computador; > Para deletar os servidores
