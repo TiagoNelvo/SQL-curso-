@@ -2,4 +2,10 @@ CREATE DATABASE (nome); > Para criar um servidor
 
 SHOW DATABASES; > Para mostrar os servidores
 
+USE (servidor) > para selecionar o servidor
+
 DROP computador; > Para deletar os servidores
+
+SELECT (tabela); > Para Selecionar tabela
+
+source (arquivo.sql) >para selecionar o arquivo
