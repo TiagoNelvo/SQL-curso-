@@ -8,8 +8,15 @@ DROP DATABASE computador; > Para deletar os servidores
 
 SELECT * FROM (tabela); > Para Selecionar tabela
 
+SELECT * FROM empresa.funcionarios; > seleciona a tabela diretamente 
+
 source (arquivo.sql) >para selecionar o arquivo
 
 mysql -u root (para logar)
 
 mysqldump -u root (servidor) > servidor.sql para exportar o servidor
+
+CREATE TABLE nome (coluna e tipos de dados, separados por vírgula);
+CREATE TABLE pessoas (nome VARCHAR(100), cpf CHAR(11), descricao MEDIUMTEXT);
+
+DROP TABLE nome;
