@@ -20,3 +20,8 @@ CREATE TABLE nome (coluna e tipos de dados, separados por vírgula);
 CREATE TABLE pessoas (nome VARCHAR(100), cpf CHAR(11), descricao MEDIUMTEXT);
 
 DROP TABLE nome;
+
+INSERT INTO "tabela"("colunas") VALUES("valores")
+Exemplo:
+INSERT INTO produtos(nome, sku, informacoes) VALUES ("Playstation 5", "PS5XY", "É um videogame de última geração");
+
