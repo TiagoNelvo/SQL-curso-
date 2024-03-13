@@ -25,6 +25,14 @@ INSERT INTO "tabela"("colunas") VALUES("valores")
 Exemplo:
 INSERT INTO produtos(nome, sku, informacoes) VALUES ("Playstation 5", "PS5XY", "É um videogame de última geração");
 
+Alterar Tabale
+
+Adicionar coluna
 ALTER TABLE "tabela" ADD COLUMN "nome" "tipo"
 Exemplo:
 ALTER TABLE funcionarios ADD COLUMN profissao VARCHAR(100);
+
+Excluir coluna
+ALTER TABLE "tabela" DROP COLUMN "nome"
+exemplo:
+ALTER TABLE funcionarios DROP COLUMN profissao;
