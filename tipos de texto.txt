@@ -1,3 +1,4 @@
+Caracteres texto/String:
 CHAR(x): aceita textos de 0 a 255 caracteres
 
 VARCHAR(x): aceita textos com 0 a 65535 caracteres
@@ -8,6 +9,8 @@ MEDIUMTEXT apenas textocom até 16777215 caracteres
 
 obs: CHAR e VARCHAR aceitam números e caracteres especiais
 
+Caracteres númericos:
+
 BIT(x) 1 a 64 caracteres
 
 TINYINT(x) 1 a 255 caracteres
@@ -15,3 +18,12 @@ TINYINT(x) 1 a 255 caracteres
 BOOL 0 é falso o restante é verdadeiro
 
 INT(x) valores entre -2147483648 a 2147483647
+
+Caracteres Data:
+
+DATE: aceita uma data formato YYYY-MM-dados
+
+DATETIME: Aceita uma data com horario YYYY-MM-DD hh:mm:ss 
+
+TIMESTAMP: Aceita uma data no formato de DATETIME, porém limitado entre 1970 a 2038
+datas tbm recebem ""
