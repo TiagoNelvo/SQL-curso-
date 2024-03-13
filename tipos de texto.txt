@@ -8,3 +8,10 @@ MEDIUMTEXT apenas textocom até 16777215 caracteres
 
 obs: CHAR e VARCHAR aceitam números e caracteres especiais
 
+BIT(x) 1 a 64 caracteres
+
+TINYINT(x) 1 a 255 caracteres
+
+BOOL 0 é falso o restante é verdadeiro
+
+INT(x) valores entre -2147483648 a 2147483647
