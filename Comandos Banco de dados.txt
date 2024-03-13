@@ -27,12 +27,17 @@ INSERT INTO produtos(nome, sku, informacoes) VALUES ("Playstation 5", "PS5XY", "
 
 Alterar Tabale
 
-Adicionar coluna
+Adicionar Coluna
 ALTER TABLE "tabela" ADD COLUMN "nome" "tipo"
 Exemplo:
 ALTER TABLE funcionarios ADD COLUMN profissao VARCHAR(100);
 
-Excluir coluna
+Excluir Coluna
 ALTER TABLE "tabela" DROP COLUMN "nome"
 exemplo:
 ALTER TABLE funcionarios DROP COLUMN profissao;
+
+Modificar coluna
+ALTER TABLE "tabela" MODIFY COLUMN "coluna" "tipo";
+Exemplo: 
+ALTER TABLE funcionarios  MODIFY COLUMN data_nascimento DATE;
