@@ -7,3 +7,7 @@ TINYTEXT apenas texto com até 255 caracteres
 MEDIUMTEXT apenas textocom até 16777215 caracteres 
 
 obs: CHAR e VARCHAR aceitam números e caracteres especiais
+
+INSERT INTO "tabela"("colunas") VALUES("valores")
+Exemplo:
+INSERT INTO produtos(nome, sku, informacoes) VALUES ("Playstation 5", "PS5XY", "É um videogame de última geração");
