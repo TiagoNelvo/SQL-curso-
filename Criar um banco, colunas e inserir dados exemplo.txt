@@ -1,0 +1,13 @@
+CREATE DATABASE cadastro;
+USE cadastro;
+CREATE TABLE pessoas(nome VARCHAR(100), rg VARCHAR(7), cpf CHAR(11), limite INT(10));
+INSERT INTO pessoas (nome, rg, cpf, limite) VALUES("Matheus", "5653789", "07420222228", 1000);
+SELECT * FROM pessoas;
+INSERT INTO pessoas (nome, rg, cpf, limite) VALUES ("Pedro", "5653123", "1232022228",15000);
+SELECT * FROM pessoas;
+INSERT INTO pessoas (nome, rg, cpf, limite) VALUES ("Maria", "1233456", "07234659125", 0);
+SELECT * FROM pessoas;
+INSERT INTO pessoas (nome, rg, cpf, limite) VALUES ("Roberta", "1542264", "56843157954", 950);
+SELECT * FROM pessoas;
+INSERT INTO pessoas (nome, rg, cpf, limite) VALUES ("Lucia", "4532167", "54321687423", 350);
+SELECT * FROM pessoas;
