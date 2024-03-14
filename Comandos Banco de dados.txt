@@ -6,9 +6,15 @@ USE (servidor) > para selecionar o servidor
 
 DROP DATABASE computador; > Para deletar os servidores
 
-SELECT * FROM (tabela); > Para Selecionar tabela
+Selecionar:
 
+SELECT * FROM (tabela); > Para Selecionar tabela
+Exemplo:
 SELECT * FROM empresa.funcionarios; > seleciona a tabela diretamente 
+
+SELECT coluna1, coluna2 FROM "tabela";
+exemplo:
+
 
 source (arquivo.sql) >para selecionar o arquivo
 
