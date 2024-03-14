@@ -61,5 +61,7 @@ ALTER TABLE funcionarios  MODIFY COLUMN data_nascimento DATE;
 UPDATE tabela SET "coluna=valor" WHERE "condição";
 Exemplo:
 UPDATE pessoas SET limite = 10000 WHERE nome = "Roberta";
+atualizando 2 colunas de Pedro
+UPDATE pessoas SET rg = "123", cpf = "321" WHERE nome = "Pedro";
 
 
