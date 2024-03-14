@@ -57,3 +57,9 @@ ALTER TABLE "tabela" MODIFY COLUMN "coluna" "tipo";
 Exemplo: 
 ALTER TABLE funcionarios  MODIFY COLUMN data_nascimento DATE;
 
+> Update:
+UPDATE tabela SET "coluna=valor" WHERE "condição";
+Exemplo:
+UPDATE pessoas SET limite = 10000 WHERE nome = "Roberta";
+
+
