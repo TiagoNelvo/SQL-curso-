@@ -1,3 +1,7 @@
+Importar
 abrir o arquivo no terminal
 executar "mysql -u root;"
 executar "source (arquivo);"
+
+Exportar
+mysqldump -u root (servidor) > servidor.sql para exportar o servidor
