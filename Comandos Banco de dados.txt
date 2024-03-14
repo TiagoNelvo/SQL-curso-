@@ -14,7 +14,7 @@ SELECT * FROM empresa.funcionarios; > seleciona a tabela diretamente
 
 SELECT coluna1, coluna2 FROM "tabela";
 exemplo:
-
+SELECT nome, rg FROM pessoas;
 
 source (arquivo.sql) >para selecionar o arquivo
 
