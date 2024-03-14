@@ -1,3 +1,4 @@
+>SERVIDOR
 CREATE DATABASE (nome); > Para criar um servidor
 
 SHOW DATABASES; > Para mostrar os servidores
@@ -6,7 +7,7 @@ USE (servidor) > para selecionar o servidor
 
 DROP DATABASE computador; > Para deletar os servidores
 
-Selecionar:
+>Selecionar:
 
 SELECT * FROM (tabela); > Para Selecionar tabela
 Exemplo:
@@ -15,6 +16,10 @@ SELECT * FROM empresa.funcionarios; > seleciona a tabela diretamente
 SELECT coluna1, coluna2 FROM "tabela";
 exemplo:
 SELECT nome, rg FROM pessoas;
+
+Selecionar um dado específico na tabela com WHERE
+SELECT * FROM "tabela" WHERE "coluna" = "dado";
+SELECT * FROM pessoas WHERE nome = "Pedro";
 
 source (arquivo.sql) >para selecionar o arquivo
 
@@ -27,9 +32,13 @@ CREATE TABLE pessoas (nome VARCHAR(100), cpf CHAR(11), descricao MEDIUMTEXT);
 
 DROP TABLE nome;
 
+>Inserir Dados:
+
 INSERT INTO "tabela"("colunas") VALUES("valores")
 Exemplo:
 INSERT INTO produtos(nome, sku, informacoes) VALUES ("Playstation 5", "PS5XY", "É um videogame de última geração");
+INSERT INTO produtos VALUES ("Playstation 5", "PS5XY", "É um videogame de última geração");
+
 
 Alterar Tabale
 
@@ -47,3 +56,4 @@ Modificar coluna
 ALTER TABLE "tabela" MODIFY COLUMN "coluna" "tipo";
 Exemplo: 
 ALTER TABLE funcionarios  MODIFY COLUMN data_nascimento DATE;
+
