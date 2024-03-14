@@ -70,3 +70,13 @@ EXEMPLO:
 DELETE FROM pessoas WHERE limite > 2000;
 DELETE FROM pessoas WHERE nome = "João";
 
+>>Operadores de Comparação
+
+Comparação (>, <, >=, <=, =)
+
+BETWEEN seleção entre um intervalo
+
+LIKE seleciona através de um padrão
+
+IN seleciona entre um conjunto de valores específicos
+
