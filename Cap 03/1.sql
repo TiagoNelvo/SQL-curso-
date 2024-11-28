@@ -1,0 +1,6 @@
+CREATE TABLE Players(
+IdPlayer SMALLINT AUTO_INCREMENT,
+NomePlayer VARCHAR(50) NOT NULL,
+SobrenomePlayer VARCHAR(60) NOT NULL,
+CONSTRAINT pk_id_player PRIMARY KEY(IdPlayer)
+);
