@@ -1,0 +1,10 @@
+USE employees;
+SELECT * FROM employees.salaries;
+SELECT * FROM salaries WHERE salary > 80000 AND from_date > "1991-12-12";
+SELECT * FROM salaries WHERE salary > 95000 AND from_date > "1991-12-12";
+SELECT * FROM salaries WHERE salary > 95000 AND from_date > "1998-12-12";
+SELECT * FROM salaries WHERE salary > 110000 AND from_date > "1998-12-12";
+SELECT * FROM salaries WHERE salary > 125000 AND from_date > "1998-12-12";
+SELECT * FROM salaries WHERE salary > 125000 AND from_date > "1998-12-12" AND emp_no > 10800;
+SELECT * FROM salaries WHERE salary > 125000 AND from_date > "1998-12-12" AND emp_no > 12800;
+SELECT * FROM salaries WHERE salary > 145000 AND from_date > "1998-12-12" AND emp_no > 12800;
