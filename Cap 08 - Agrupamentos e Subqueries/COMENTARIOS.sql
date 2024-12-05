@@ -1,0 +1,2 @@
+-- Seleciona todos os nomes de funcionarios
+-- SELECT first_name FROM employees;
